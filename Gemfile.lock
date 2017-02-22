@@ -1,0 +1,59 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activesupport (5.0.1)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (~> 0.7)
+      minitest (~> 5.1)
+      tzinfo (~> 1.1)
+    after_do (0.4.0)
+    concurrent-ruby (1.0.4-java)
+    furoshiki (0.4.0)
+      plist
+      rubyzip (>= 1.0.0)
+      warbler (~> 2.0.4)
+    i18n (0.8.1)
+    jruby-jars (9.1.7.0)
+    jruby-rack (1.1.20)
+    minitest (5.10.1)
+    nokogiri (1.6.4.1-java)
+    plist (3.2.0)
+    rake (12.0.0)
+    rubyzip (1.2.1)
+    shoes (4.0.0.pre8)
+      shoes-core (= 4.0.0.pre8)
+      shoes-manual (~> 4.0.0, >= 4.0.0)
+      shoes-swt (= 4.0.0.pre8)
+    shoes-core (4.0.0.pre8)
+    shoes-highlighter (1.0.1)
+    shoes-manual (4.0.1)
+      nokogiri (~> 1.6.4.1, >= 1.6.4.1)
+      shoes-highlighter (~> 1.0, >= 1.0.0)
+    shoes-package (4.0.0.pre8)
+      bundler
+      furoshiki (~> 0.4.0)
+      shoes-core (= 4.0.0.pre8)
+    shoes-swt (4.0.0.pre8)
+      after_do (~> 0.4.0)
+      shoes-core (= 4.0.0.pre8)
+      shoes-package (= 4.0.0.pre8)
+      swt (~> 4.6.1.1)
+    swt (4.6.1.1)
+    thread_safe (0.3.5-java)
+    tzinfo (1.2.2)
+      thread_safe (~> 0.1)
+    warbler (2.0.4)
+      jruby-jars (>= 9.0.0.0)
+      jruby-rack (>= 1.1.1, < 1.3)
+      rake (>= 10.1.0)
+      rubyzip (~> 1.0, < 1.4)
+
+PLATFORMS
+  java
+
+DEPENDENCIES
+  activesupport
+  shoes (~> 4.0.0.pre8)
+
+BUNDLED WITH
+   1.13.7
